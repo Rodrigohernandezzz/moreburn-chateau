@@ -1,5 +1,21 @@
 body {
-  background-image: url();
-  background-attachment: fixed;
-  background-position: center;
+  background-color: purple;
+}
+
+
+
+img {
+  width: 200px;
+}
+
+#proceed {
+  position: absolute;
+  bottom: 25%;
+  right: 47%;
+}
+
+#help {
+  position: absolute;
+  bottom: 10%;
+  right: 45%;
 }
