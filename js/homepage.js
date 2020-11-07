@@ -18,7 +18,18 @@ $("#proceed").click(function() {
                   "margin": "25px",
                   "padding": "15px",
                   });
+  $("#test").append("<button id='go'>Enter</button>");
+  $("#go").click(function() {
+    window.location="./foyer/index.html";
+    console.log("click");
+  });
 });
+
+// $("#go").click(function() {
+//   window.location="https://valramirez.github.io/moreburn-chateau/foyer/index.html" + this.id;
+//   console.log("click");
+// });
+
 
 $("#help").click(function() {
   alert("Use the arrow keys to navigate your way through the mysterious mansion");
